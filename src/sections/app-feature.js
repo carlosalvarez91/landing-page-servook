@@ -10,11 +10,11 @@ import chat from 'assets/images/chat.png';
 const data = [
   {
     id: 1,
-    label: 'We have all services you need',
+    label: 'Explore Verified Professionals',
   },
   {
     id: 2,
-    label: 'Explore professionals profiles',
+    label: 'Choose the one you prefer',
   },
   {
     id: 3,
@@ -111,7 +111,7 @@ const styles = {
     },
   },
   illustration: {
-    mb: [0, null, null, null, '0px', '-260px'],
+    mb: [0, null, null, null, '0px', '0px'],
     mt: [0],
     zIndex: '-1',
     img: {

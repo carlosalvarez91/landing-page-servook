@@ -6,6 +6,7 @@ import Logo from 'components/logo';
 import instagram from 'assets/images/icons/instagram.svg'
 import facebook from 'assets/images/icons/facebook.svg'
 import linkedin from 'assets/images/icons/linkedin.svg'
+import googlePlay from 'assets/images/icons/google-play.svg'
 
 
 const menuItems = [
@@ -33,6 +34,9 @@ export default function Footer() {
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>
+              <li>
+                <a href="https://play.google.com/store/apps/details?id=com.servook.twa" target="_blank"><Image src={googlePlay} width={25}/></a>
+              </li>
               <li >
                 <a href="https://facebook.com/Servook-101899664704519/" target="_blank"> <Image src={instagram}/></a>
               </li>
@@ -73,6 +77,7 @@ const styles = {
     pb: [6],
   },
   footerLinks:{
+    marginTop: 30,
     display:'block',
     a:{
       color:"#FFFF",

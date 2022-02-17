@@ -34,7 +34,7 @@ const Banner = () => {
             The easiest way to contact with local professionals
             </Heading>
             <Text as="p">
-              Local Plumbers, Carpenters, Painters, Electricians Cleaners, Babysitters, Beauty professionals and many more
+              Local Plumbers, Carpenters, Painters, Electricians Cleaners, Babysitters, Beauty professionals and many more.
             </Text>
             <div sx={styles.actionButtons}>
               <a href="https://app.servook.com/work-with-us">
