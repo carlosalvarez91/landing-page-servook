@@ -2,27 +2,7 @@
 import { jsx, Box, Flex, Container, Heading, Text, Button } from 'theme-ui';
 import { rgba } from 'polished';
 import Image from 'components/image';
-import SubscriptionForm from 'components/subscription-form';
-import illustration from 'assets/images/workers.png';
-
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
-import dropbox from 'assets/images/dropbox.png';
-
-const logos = [
-  {
-    name: 'Paypal',
-    src: paypal,
-  },
-  {
-    name: 'Google',
-    src: google,
-  },
-  {
-    name: 'Dropbox',
-    src: dropbox,
-  },
-];
+import illustration from 'assets/images/app.servook.com_.png';
 
 const Banner = () => {
   return (
@@ -162,10 +142,15 @@ const styles = {
   },
   bannerImage: {
     alignItems: 'center',
+    justifyContent: 'center',
     mt: [9, null, null, null, 0],
     img: {
+      height:480,
       maxWidth: [null, null, null, '80%', '100%'],
       m: [null, null, null, '0 auto', 0],
+      '@media screen and (max-width: 900px)': {
+        display: 'none',
+      },
     },
   },
 };

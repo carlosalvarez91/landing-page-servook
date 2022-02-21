@@ -27,6 +27,9 @@ const AppFeature = () => {
     <section sx={styles.section}>
       <Container>
         <Grid sx={styles.grid}>
+        <Box sx={styles.illustration}>
+            <Image src={chat} alt="workHard" />
+          </Box>
           <Box sx={styles.rightContent}>
             <SectionHeading
               emoji={emoji}
@@ -44,9 +47,7 @@ const AppFeature = () => {
             </Box>
             <a href="https://app.servook.com" sx={styles.link}>Explore More</a>
           </Box>
-          <Box sx={styles.illustration}>
-            <Image src={chat} alt="workHard" />
-          </Box>
+
         </Grid>
       </Container>
     </section>
@@ -117,11 +118,11 @@ const styles = {
     img: {
       display: ['none', null, null, null, 'block'],
     },
-    '@media screen and (max-width: 767px)': {
-      background: `transparent url(${app}) no-repeat center top / cover`,
-      width: '100%',
-      minHeight: 310,
-      marginBottom: 40,
-    },
+    //'@media screen and (max-width: 767px)': {
+      //background: `transparent url(${app}) no-repeat center top / cover`,
+      // width: '100%',
+      //minHeight: 310,
+      //marginBottom: 40,
+    //},
   },
 };
